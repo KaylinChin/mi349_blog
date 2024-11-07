@@ -36,10 +36,18 @@ p {
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
+    gap: 25px;
+    border-radius: 25 px;
 }
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
 
-/* for blog posts */
+/* a two column flex box layout */
+.table {
+    background-color: rgb(179, 211, 179);
+    flex-direction: row;
+    text-align: center;
+}
