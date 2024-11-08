@@ -56,12 +56,13 @@ main {
     color: 242424;
     border-top: 10px solid #242424;
     background: #fff;
-    display: flex;
     gap: 25px;
     border-radius: 25px;
     justify-content: center;
     margin: 25px;
+    line-height: 2em;
 }
+
 
 .about-paragraph-1 {
     display: flex;
@@ -89,4 +90,14 @@ main {
     gap: 25px;
     border-radius: 25px;
     padding: 10px;
+}
+
+/* adding floated photo + caption */
+.floater {
+    float: right;
+    width: 125px;
+    background-color: #ccc;
+    padding: 25px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #242424;
 }
