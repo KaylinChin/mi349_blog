@@ -30,6 +30,8 @@ p {
     line-height: 2em;
 }
 
+/* added a two column flexbox layout (on index.html) */
+
 #blog {
     border-top: 1px dotted #ccc;
     display: flex;
@@ -46,7 +48,7 @@ p {
     text-align: center;
 }
 
-/* a mulit-column form layout using flexbox */
+/* a mulit-column form layout using flexbox (on about page)*/
 main {
     font-family:'Times New Roman', Times, serif;
     margin: 40px;
